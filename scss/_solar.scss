@@ -1,4 +1,3 @@
-
 html,
 body,
 div,
@@ -124,9 +123,9 @@ button,
 input,
 select,
 textarea {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
   text-transform: none;
   font-size: 17px;
@@ -884,6 +883,7 @@ nav:not(.toggled) ul ul .dropdown-menu-toggle:before {
   text-align: right;
 }
 .site-header .header-image {
+  width: 150px;
   vertical-align: middle;
 }
 .header-widget {
@@ -1789,7 +1789,7 @@ button,
 input,
 select,
 textarea {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   font-weight: 400;
@@ -3216,7 +3216,7 @@ ol.comment-list {
   line-height: 40px;
   width: 40px;
   text-align: center;
-  z-index: 10;
+  z-index: 9999;
   transition: opacity 300ms ease-in-out;
 }
 .generate-back-to-top .screen-reader-text {
@@ -3336,7 +3336,8 @@ nav.toggled .sub-menu .dropdown-menu-toggle .gp-icon svg {
 }
 .heading_h2 {
   color: #333;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 40px;
   font-weight: 400;
   text-transform: uppercase;
@@ -3486,7 +3487,7 @@ nav.toggled .sub-menu .dropdown-menu-toggle .gp-icon svg {
   position: relative;
   cursor: pointer;
   position: absolute;
-  z-index: 1;
+  z-index: 9999;
 }
 .arrow span {
   width: 40px;
@@ -3900,7 +3901,8 @@ nav.breadcrumb span.divider:before {
   bottom: 0;
 }
 .about_home_img_content span {
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 115px;
   font-weight: 400;
   line-height: normal;
@@ -3908,16 +3910,16 @@ nav.breadcrumb span.divider:before {
 }
 .about_home_img_content h4 {
   color: #fff;
-  font-family: "SegoeUI";
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   text-transform: uppercase;
 }
 .read_more_icon {
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
   font-size: 17px;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 19px;
   text-transform: uppercase;
   position: relative;
@@ -4000,7 +4002,7 @@ nav.breadcrumb span.divider:before {
   z-index: -1;
 }
 .solution_tab_info_content h5 {
-  font-family: "SegoeUI-Light";
+  font-family: "Roboto";
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
@@ -4035,7 +4037,8 @@ nav.breadcrumb span.divider:before {
   display: block;
 }
 .solution_tab_list li .solution_tab_info_number {
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 32px;
   font-weight: 400;
   display: block;
@@ -4098,7 +4101,8 @@ nav.breadcrumb span.divider:before {
 }
 .solution_tab_button_content h4 {
   margin: 0;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   text-transform: uppercase;
 }
 .tabs__navigation .solution_tab_icon,
@@ -4369,7 +4373,8 @@ nav.breadcrumb span.divider:before {
 .project_slider_title h4 {
   font-size: 32px;
   text-transform: uppercase;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-weight: 400;
   padding: 0 150px;
   line-height: normal;
@@ -4378,7 +4383,7 @@ nav.breadcrumb span.divider:before {
 }
 .project_slider_title h5 {
   text-transform: uppercase;
-  font-family: "SegoeUI-Light";
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
   margin-bottom: 0;
@@ -4409,11 +4414,12 @@ nav.breadcrumb span.divider:before {
 }
 .project_slider_icon_content span {
   font-size: 16px;
-  font-family: "SegoeUI-Light";
+  font-family: "Roboto";
   color: #fff;
 }
 .project_slider_icon_content h5 {
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 25px;
   margin: 0;
   color: #fff;
@@ -4477,7 +4483,8 @@ nav.breadcrumb span.divider:before {
   color: #3f3f3f;
   font-size: 20px;
   line-height: 20px;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   margin-bottom: 10px;
 }
 .product_tab_item_content h4 {
@@ -4485,7 +4492,7 @@ nav.breadcrumb span.divider:before {
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
-  font-family: "SegoeUI";
+  font-family: "Roboto";
   margin-bottom: 15px;
 }
 .product_tab_item_content p {
@@ -4615,7 +4622,7 @@ nav.breadcrumb span.divider:before {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   height: 63px;
-  font-family: "SegoeUI";
+  font-family: "Roboto";
 }
 .news_style2_info p,
 .news_style2_info a.button_style {
@@ -4896,7 +4903,7 @@ section.section.top_menu {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: "SegoeUI";
+  font-family: "Roboto";
 }
 .box_cat_product .box_content .content {
   color: #3f3f3f;
@@ -5182,7 +5189,8 @@ nav.breadcrumb ul li cite {
 .single-product .view_more {
   border-radius: 30px;
   background-image: linear-gradient(to right, #f69321 0%, #ffa843 100%);
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -5591,7 +5599,8 @@ section.product_relate.box_cat_product {
 }
 .contact_page .box_contact .box_left label {
   color: #333;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 14px;
   line-height: 22px;
   text-transform: uppercase;
@@ -5612,7 +5621,8 @@ section.product_relate.box_cat_product {
 .contact_page .box_contact .box_left input.wpcf7-submit {
   display: inline-block;
   color: #fff;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 15px;
   text-transform: uppercase;
   border-radius: 25px;
@@ -6388,7 +6398,8 @@ div#banner_gr img {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
 }
 .top_bar_scroll ul {
   display: flex;
@@ -6459,7 +6470,8 @@ div#banner_gr img {
 .input_data .box_form label {
   color: #333;
   font-size: 17px;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   margin-bottom: 20px;
   padding-left: 10px;
   display: inline-block;
@@ -6549,7 +6561,7 @@ div#banner_gr img {
   font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 45px;
-  font-family: "SegoeUI";
+  font-family: "Roboto";
 }
 .solution_family .item {
   width: calc(100% - 155px) !important;
@@ -6712,7 +6724,8 @@ div#banner_gr img {
   margin-right: 10px;
 }
 .product_family .item .bottom .content_right .content {
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   color: #fff;
   font-size: 14px;
 }
@@ -6751,7 +6764,7 @@ ul.select-options li,
   cursor: pointer;
   list-style: none;
   padding: 11.5px 15px 9.5px;
-  font-family: "SegoeUI";
+  font-family: "Roboto";
   color: #000;
   margin: 0;
   font-size: 16px;
@@ -6989,7 +7002,8 @@ section.section.benefit_project .heading_h2 {
   top: 50%;
   transform: translateY(-50%);
   z-index: 99;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
 }
 .about_project .item .box_content > h3 {
   color: #333;
@@ -7023,7 +7037,8 @@ section.section.benefit_project .heading_h2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
@@ -7056,7 +7071,8 @@ section.section.benefit_project .heading_h2 {
   z-index: 99;
 }
 .project_relate .item .box_content .view_more {
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 16px;
   color: #333;
   transition: 0.3s;
@@ -7134,7 +7150,8 @@ ul.thenativePagination li.active a {
 .project_page .box_form #searchsubmit {
   border-radius: 20px;
   background-color: #f69321;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   color: #fff;
   font-size: 14px;
   font-weight: 700;
@@ -7299,7 +7316,8 @@ ul.thenativePagination li.active a {
   color: #fff;
   font-size: 14px;
   line-height: 18px;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   padding-left: 15px;
 }
 .partner_section .slider {
@@ -7669,7 +7687,8 @@ ul.thenativePagination li.active a {
 }
 .benefit_solution_2 .item .box_content .content {
   color: #333;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 18px;
   margin-bottom: 20px;
 }
@@ -7824,7 +7843,8 @@ ul.thenativePagination li.active a {
 }
 .go_solar_solution .list_item .item h3 {
   color: #595959;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -7989,7 +8009,8 @@ html[lang="en-US"]
   top: 0;
   font-size: 40px;
   color: #fff;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
 }
 .error_border {
   border: 1px solid red !important;
@@ -8117,7 +8138,8 @@ html[lang="en-US"]
   color: #333;
   font-size: 16px;
   margin-bottom: 10px;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   padding-left: 12px;
 }
 .caculator_system .cal_system .select {
@@ -8132,7 +8154,7 @@ html[lang="en-US"]
   color: #666;
   font-size: 16px;
   padding: 0 42px;
-  font-family: "SegoeUI";
+  font-family: "Roboto";
   margin-bottom: 20px;
 }
 .caculator_system .cal_system input {
@@ -8175,7 +8197,8 @@ ul.caculator_system_list li {
 .caculator_system_list_content span {
   color: #f48a22;
   font-size: 25px;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   white-space: nowrap;
 }
 .caculator_system_list_content b {
@@ -8256,7 +8279,8 @@ ul.caculator_system_list li {
   color: #333;
   font-size: 18px;
   font-weight: 700;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   margin-bottom: 15px;
 }
 .general_knowledge .slider .item {
@@ -8435,7 +8459,8 @@ ul.list_cat_video li.active a span {
 }
 .general_knowledge .box_form label {
   color: #333;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 16px;
   font-weight: 400;
   padding-left: 5px;
@@ -8498,7 +8523,8 @@ ul.list_cat_video li.active a span {
 .list_cat_question .item h3 a {
   color: #666;
   font-size: 14px;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
 }
 .tax_question_page {
   padding: 100px 0 60px 0;
@@ -8548,14 +8574,16 @@ ul.list_cat_video li.active a span {
   padding: 30px 18px;
   border-top: 1px solid #e0e0e0;
   color: #666;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 13px;
   text-transform: uppercase;
   cursor: pointer;
 }
 .number_q {
   color: #999;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 20px;
   min-width: 60px;
   text-transform: uppercase;
@@ -8655,7 +8683,7 @@ ul.list_cat_video li.active a span {
 .box_news .item .box_content h3 a {
   color: #333;
   font-size: 16px;
-  font-family: "SegoeUI";
+  font-family: "Roboto";
 }
 .box_news .item .box_content a.view_more {
   color: #0b90d3;
@@ -8663,7 +8691,8 @@ ul.list_cat_video li.active a span {
   display: block;
   background: transparent;
   padding: 0;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
   text-transform: unset;
 }
 .box_news .item .box_content a.view_more i {
@@ -8805,7 +8834,8 @@ section.section.tax_product_parent {
 .menu_cat_product_tax_page > ul > li > a {
   width: calc(100% - 40px);
   display: inline-block;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
 }
 .menu_cat_product_tax_page .nameContainer {
   display: inline-block;
@@ -9053,7 +9083,8 @@ ul.list_cat_post li.active a {
 }
 .news_related .item .box_content a.view_more {
   color: #1a7cb1;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 14px;
 }
 .news_related h2 {
@@ -9092,7 +9123,8 @@ ul.list_cat_post li.active a {
   padding: 15px 40px;
   background-color: #32aaeb;
   color: #fff;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 18px;
   font-weight: 700;
   line-height: 26px;
@@ -9157,7 +9189,8 @@ ul.list_cat_post li.active a {
 }
 .page_404 .content {
   color: #333;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 15px;
   line-height: 23.93px;
   margin-bottom: 55px;
@@ -9228,7 +9261,8 @@ ul.list_cat_post li.active a {
 .menu_cat_product_tax_page > ul > li > a {
   width: calc(100% - 40px);
   display: inline-block;
-  font-family: "SegoeUI-Bold";
+  font-family: "Roboto";
+  font-weight: bold;
 }
 .document_page .menu_cat_product_tax_page a {
   position: relative;
@@ -9621,7 +9655,7 @@ ul.list_page {
 }
 .about_enterprise .box .left .content h3 {
   font-size: 20px;
-  font-family: "SegoeUI";
+  font-family: "Roboto";
 }
 .about_enterprise .box .left .box_content a {
   margin-top: 20px;
@@ -9728,7 +9762,8 @@ li.list_web:before {
   color: #fff;
 }
 .menu_cat_product_tax_page li.term_parent > ul > li > a {
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
 }
 .menu_cat_product_tax_page li.term_parent > ul > li a:focus {
   color: #2692ce;
@@ -9797,7 +9832,8 @@ li.list_web:before {
 .consultation_form_sec.step2 h4 {
   text-align: center;
   color: #333;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -9819,7 +9855,8 @@ li.list_web:before {
 .consultation_form_sec.step2 h5 {
   text-align: center;
   color: #333;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 18px;
   font-weight: 400;
   line-height: 20px;
@@ -9846,7 +9883,8 @@ li.list_web:before {
 .consultation_form_sec.step3.consultation_video p {
   text-align: center;
   color: #333;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -9899,7 +9937,8 @@ li.list_web:before {
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
   transform: translate(5px, -25px);
 }
 .estimation_system .caculator_system {
@@ -9922,7 +9961,8 @@ li.list_web:before {
 }
 .cal_system_item h5 {
   color: red;
-  font-family: "SegoeUI-bold";
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 16px;
   transform: translate(5px, -15px);
 }
@@ -11078,7 +11118,7 @@ header#masthead_solar_scroll.sticky .main-navigation li.list_web ul a:hover {
     font-size: 16px;
     color: #333;
     line-height: 1.2;
-    font-family: "SegoeUI";
+    font-family: "Roboto";
     text-transform: initial;
     margin-top: 20px;
   }
@@ -11145,6 +11185,7 @@ header#masthead_solar_scroll.sticky .main-navigation li.list_web ul a:hover {
     float: unset;
   }
   header#masthead_solar .site-logo img {
+    width: 100%;
     height: 40px;
   }
   header#masthead_solar .site-logo {
@@ -11225,7 +11266,8 @@ header#masthead_solar_scroll.sticky .main-navigation li.list_web ul a:hover {
     padding: 30px 0 0 0;
   }
   .main-navigation ul li a {
-    font-family: "SegoeUI-Bold";
+    font-family: "Roboto";
+    font-weight: bold;
   }
   div#banner_gr .gr_head {
     width: calc(100% - 30px);
