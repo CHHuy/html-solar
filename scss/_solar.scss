@@ -1789,9 +1789,9 @@ button,
 input,
 select,
 textarea {
-  font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
   text-transform: none;
   font-size: 17px;
@@ -3339,7 +3339,6 @@ nav.toggled .sub-menu .dropdown-menu-toggle .gp-icon svg {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 40px;
-  font-weight: 400;
   text-transform: uppercase;
 }
 .heading_h2_line {
@@ -3401,7 +3400,7 @@ nav.toggled .sub-menu .dropdown-menu-toggle .gp-icon svg {
   padding: 13px 45px 13px 45px;
   min-width: 120px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
   text-transform: uppercase;
   display: inline-block;
@@ -3621,7 +3620,7 @@ nav.breadcrumb span.divider {
 }
 nav.breadcrumb span.divider:before {
   content: "\f105";
-  font-family: fontawesome;
+  font-family: "Font Awesome 6 Free";
   font-size: 14px;
   color: #b2b2b2;
 }
@@ -3904,7 +3903,6 @@ nav.breadcrumb span.divider:before {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 115px;
-  font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -4040,7 +4038,6 @@ nav.breadcrumb span.divider:before {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 32px;
-  font-weight: 400;
   display: block;
   line-height: normal;
 }
@@ -4375,7 +4372,6 @@ nav.breadcrumb span.divider:before {
   text-transform: uppercase;
   font-family: "Roboto";
   font-weight: bold;
-  font-weight: 400;
   padding: 0 150px;
   line-height: normal;
   font-size: 30px;
@@ -6106,7 +6102,7 @@ div#socialSharing a span#whatsapp:hover {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../../../../../../themes/solar/image/play-button_video.png);
+  background-image: url(../uploads/play-button_video.png);
   content: "";
   pointer-events: none;
 }
@@ -6771,15 +6767,6 @@ ul.select-options li,
   color: #666;
 }
 .select-styled {
-  background-image: url(/images/arrow-down.svg) !important;
-  background-repeat: no-repeat;
-  background-size: 20px;
-  background-position: right;
-  padding: 0 30px 5px 0;
-  border-bottom: 1px dashed #2a5562;
-  font-size: 25px;
-  color: #2a5562;
-  line-height: normal;
   position: relative;
 }
 .select-styled:before {
@@ -7154,7 +7141,6 @@ ul.thenativePagination li.active a {
   font-weight: bold;
   color: #fff;
   font-size: 14px;
-  font-weight: 700;
   text-transform: uppercase;
   padding: 0 50px;
   height: 40px;
@@ -8278,7 +8264,6 @@ ul.caculator_system_list li {
 .general_knowledge .slider .box_content_slide h3 {
   color: #333;
   font-size: 18px;
-  font-weight: 700;
   font-family: "Roboto";
   font-weight: bold;
   margin-bottom: 15px;
@@ -8414,7 +8399,7 @@ ul.list_cat_video li.active a span {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(../../../../../../themes/solar/image/play-button_video.png);
+  background-image: url(../uploads/play-button_video.png);
   width: 44px;
   height: 44px;
   background-size: contain;
@@ -8462,7 +8447,6 @@ ul.list_cat_video li.active a span {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 16px;
-  font-weight: 400;
   padding-left: 5px;
   margin-bottom: 20px;
   display: inline-block;
@@ -9126,7 +9110,6 @@ ul.list_cat_post li.active a {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 18px;
-  font-weight: 700;
   line-height: 26px;
   text-transform: uppercase;
   margin-bottom: 0;
@@ -9648,7 +9631,7 @@ ul.list_page {
   transform: translate(-50%, -50%);
   width: 111px;
   height: 111px;
-  background-image: url(../../../../../../themes/solar/image/play-button_video.png);
+  background-image: url(../uploads/play-button_video.png);
   content: "";
   z-index: 2;
   background-size: contain;
@@ -9835,7 +9818,6 @@ li.list_web:before {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 16px;
-  font-weight: 400;
   line-height: 20px;
   margin-bottom: 70px;
 }
@@ -9858,7 +9840,6 @@ li.list_web:before {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 18px;
-  font-weight: 400;
   line-height: 20px;
   margin-bottom: 70px;
   display: inline-block;
@@ -9886,7 +9867,6 @@ li.list_web:before {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 16px;
-  font-weight: 400;
   line-height: 22px;
   margin-bottom: 15px;
 }
@@ -9934,7 +9914,6 @@ li.list_web:before {
 .consultation_form_item h5 {
   color: red;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto";
