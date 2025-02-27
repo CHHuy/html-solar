@@ -1,0 +1,49 @@
+// :root {
+//   --swiper-navigation-color: #fff;
+// }
+
+// html,
+// body {
+//   scroll-behavior: smooth;
+// }
+
+// html {
+//   font-size: 62.5%; // change default root font
+// }
+
+// body {
+//   font-size: 1.6rem;
+//   font-weight: 500;
+//   // At 62.5%, 1.6rem translates to 16px (1.6 times the size of the root font)
+//   // If root font size at 100%, 1rem = 16px
+//   // rem unit giving much flexible about font-size than fixed px
+//   // with 62.5%, easier to set font-size with rem 1rem = 10px
+//   font-optical-sizing: auto;
+//   font-style: normal;
+//   line-height: 1.5;
+//   text-rendering: optimizeSpeed;
+//   overflow-y: overlay;
+//   position: relative;
+// }
+
+// button,
+// input,
+// [tabindex] {
+//   border: none;
+//   outline: none;
+// }
+
+// a {
+//   color: var(--text-color);
+//   text-decoration: none;
+//   transition: all 0.4s ease;
+
+//   &:hover {
+//     img {
+//       opacity: 0.8;
+//     }
+//   }
+//   img {
+//     transition: all 0.25s ease;
+//   }
+// }

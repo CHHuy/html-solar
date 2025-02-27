@@ -1,0 +1,295 @@
+@font-face {
+  font-family: "SegoeUI";
+  src: url(../scss/fonts/segoeui.eot);
+  src: url("../scss/fonts/segoeui.eot?#iefix") format("embedded-opentype"),
+    url(../scss/fonts/segoeui.otf) format("opentype"),
+    url(../scss/fonts/segoeui.svg) format("svg"),
+    url(../scss/fonts/segoeui.ttf) format("truetype"),
+    url(../scss/fonts/segoeui.woff) format("woff"),
+    url(../scss/fonts/segoeui.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SegoeUI-Bold";
+  src: url(../scss/fonts/segoeuib.eot);
+  src: url("../scss/fonts/segoeuib.eot?#iefix") format("embedded-opentype"),
+    url(../scss/fonts/segoeuib.otf) format("opentype"),
+    url(../scss/fonts/segoeuib.svg) format("svg"),
+    url(../scss/fonts/segoeuib.ttf) format("truetype"),
+    url(../scss/fonts/segoeuib.woff) format("woff"),
+    url(../scss/fonts/segoeuib.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SegoeUI-Light";
+  src: url(../scss/fonts/segoeuil.eot);
+  src: url("../scss/fonts/segoeuil.eot?#iefix") format("embedded-opentype"),
+    url(../scss/fonts/segoeuil.otf) format("opentype"),
+    url(../scss/fonts/segoeuil.svg) format("svg"),
+    url(../scss/fonts/segoeuil.ttf) format("truetype"),
+    url(../scss/fonts/segoeuil.woff) format("woff"),
+    url(../scss/fonts/segoeuil.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  overflow-x: hidden;
+  font-family: "SegoeUI";
+}
+h1,
+h2,
+h3 {
+  font-family: "SegoeUI-Bold";
+  font-weight: 400;
+}
+b,
+strong {
+  font-family: "SegoeUI-Bold";
+  font-weight: 400;
+}
+header#masthead_solar .main-navigation li.search-item {
+  float: left;
+}
+header#masthead_solar .site-logo {
+  line-height: 115px;
+}
+header#masthead_solar .main-navigation {
+  background: transparent;
+}
+header#masthead_solar div#primary-menu li:focus a,
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+  background: transparent !important;
+}
+header#masthead_solar div#primary-menu li a {
+  color: #333;
+  font-family: "SegoeUI";
+  font-size: 14px;
+  font-weight: 400;
+  transition: 0.3s;
+  line-height: 52px;
+  position: relative;
+}
+header#masthead_solar div#primary-menu li:not(.search-item) a:before {
+  position: absolute;
+  width: 1px;
+  height: 8px;
+  content: "";
+  top: 50%;
+  right: -1px;
+  transform: translateY(-50%);
+  background: #dadada;
+}
+header#masthead_solar div#primary-menu li:hover a {
+  transition: 0.3s !important;
+  background: transparent;
+  color: #f48a22;
+}
+.inside-header {
+  padding: 0 !important;
+}
+.main-navigation li.search-item {
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+}
+ul#menu-menu-header-2,
+ul#menu-menu-header-2-english {
+  display: inline-block;
+  padding: 22px 0 12px 0;
+  position: relative;
+}
+ul#menu-menu-header-2 li a,
+ul#menu-menu-header-2-english li a {
+  padding: 0 20px;
+  color: #fff;
+  font-family: "SegoeUI";
+  font-size: 16px;
+  text-transform: uppercase;
+}
+ul#menu-menu-header-2:before,
+ul#menu-menu-header-2-english:before {
+  position: absolute;
+  left: -70px;
+  top: 0;
+  background-image: linear-gradient(to right, #f48a21 0%, #fd9f31 100%);
+  content: "";
+  width: 2000px;
+  height: 63px;
+  border-radius: 100px 0 0 0;
+}
+form.search-form.navigation-search.nav-search-active {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+form.search-form.navigation-search.nav-search-active input {
+  position: absolute;
+  right: 85px;
+  height: 40px;
+  top: inherit;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.navigation-search input[type="search"]:focus {
+  background: transparent;
+}
+header#masthead_solar .main-navigation li.search-item a {
+  background: transparent !important;
+}
+header#masthead_solar .inside-navigation {
+  float: right;
+}
+header#masthead_solar_scroll div#primary-menu {
+  display: none;
+}
+header#masthead_solar_scroll .inside-header {
+  padding: 30px 0 !important;
+}
+header#masthead_solar_scroll .site-logo img {
+  height: 30px;
+}
+header#masthead_solar_scroll .main-navigation .main-nav ul li a,
+header#masthead_solar_scroll .main-navigation ul li a {
+  line-height: 30px;
+  color: #333;
+  font-family: "SegoeUI-Bold";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+header#masthead_solar_scroll .list_web {
+  margin-left: 10px;
+}
+header#masthead_solar_scroll .list_web > a {
+  border: 1px solid #2692ce;
+  color: #2692ce !important;
+  height: 30px;
+}
+header#masthead_solar_scroll .list_web {
+  margin-left: 10px;
+}
+header#masthead_solar_scroll .list_web ul li a {
+  text-align: center;
+}
+header#masthead_solar_scroll .list_web ul li a:hover {
+  background: #f69321;
+  color: #fff;
+  transition: 0.3s;
+}
+header#masthead_solar_scroll .main-navigation {
+  background: transparent;
+}
+header#masthead_solar_scroll .main-navigation .main-nav ul li:hover > a {
+  background: transparent;
+  color: #f69321 !important;
+}
+header#masthead_solar_scroll {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 98;
+  width: 100%;
+}
+header#masthead_solar {
+  transform: translateY(0%);
+  transition: 0.3s;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+header#masthead_solar.sticky {
+  transform: translateY(-100%);
+  transition: 0.3s;
+  opacity: 0;
+}
+header#masthead_solar_scroll {
+  transform: translateY(-100%);
+  transition: 0.3s;
+}
+header#masthead_solar_scroll.sticky {
+  transform: translateY(0%);
+  transition: 0.3s;
+}
+header#masthead_solar div#primary-menu li.phone_number a {
+  border-left: 1px solid #dadada;
+}
+header#masthead_solar div#primary-menu li.phone_number a img {
+  position: relative;
+  top: 4px;
+}
+header#masthead_solar_scroll div#primary-menu li.phone_number a {
+  display: none;
+}
+.main-navigation li.list_web > a {
+  height: 29px;
+  border-radius: 14px;
+  border: 1px solid #fff;
+  line-height: 29px;
+  top: -3px;
+  position: relative;
+}
+.main-navigation li.list_web ul {
+  width: auto;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background-image: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+  overflow: hidden !important;
+}
+ul#menu-menu-header-2 li.list_web ul a,
+ul#menu-menu-header-2-english li.list_web ul a {
+  color: #333;
+  font-size: 14px;
+  background: transparent;
+  transition: 0.3s;
+  line-height: 30px;
+  text-align: center;
+}
+ul#menu-menu-header-2 li.list_web ul a:hover,
+ul#menu-menu-header-2-english li.list_web ul a:hover {
+  color: #fff;
+  background-color: #2692ce;
+  transition: 0.3s;
+}
+ul#menu-menu-header-2 li,
+ul#menu-menu-header-2-english li {
+  position: relative;
+}
+ul#menu-menu-header-2 li:before,
+ul#menu-menu-header-2-english li:before {
+  height: 1px;
+  width: 0;
+  background: #fff;
+  position: absolute;
+  bottom: -3px;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+ul#menu-menu-header-2 li.current-menu-item:before,
+ul#menu-menu-header-2 li:hover:before,
+ul#menu-menu-header-2-english li.current-menu-item:before,
+ul#menu-menu-header-2-english li:hover:before {
+  transition: 0.5s;
+  width: calc(100% - 40px);
+}
+header#masthead_solar div#primary-menu li.current-menu-item {
+  color: #f48a22;
+}
+.main-navigation li.wpml-ls-menu-item {
+  float: right;
+}
+.main-navigation li.wpml-ls-menu-item a:before {
+  display: none;
+}
+.main-navigation .main-nav ul li:hover > a,
+.main-navigation .main-nav ul li:focus > a,
+.main-navigation .main-nav ul li.sfHover > a {
+  background: transparent !important;
+}
