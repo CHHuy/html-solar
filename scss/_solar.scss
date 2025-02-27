@@ -6973,7 +6973,7 @@ section.section.benefit_project .heading_h2 {
   transform: translate(0%, -50%);
   width: 74px;
   height: 74px;
-  background-image: url(../../../../../../themes/thuythu/images/play-button_solar.png);
+  background-image: url(../uploads/play-button_solar.png);
   content: "";
   z-index: 2;
   background-size: contain;
@@ -9097,7 +9097,7 @@ ul.list_cat_post li.active a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(../../../../../../themes/solar/image/load_more_post.gif);
+  background-image: url(../uploads/load_more_post.gif);
   width: 80px;
   height: 80px;
   background-size: contain;
@@ -10195,6 +10195,71 @@ header#masthead_solar_scroll.sticky .main-navigation li.list_web ul a {
 header#masthead_solar_scroll.sticky .main-navigation li.list_web ul a:hover {
   color: #fff;
 }
+
+
+.mo_ta_cuoi_danh_muc {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+}
+
+.vts_readmore_taxonomy {
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+
+.vts_readmore_taxonomy:before {
+  margin-top: -45px;
+  content: "";
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff00', endColorstr='#ffffff', GradientType=0);
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  height: 200px;
+  left: 0;
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff);
+  width: 100%;
+
+}
+
+.vts_readmore_taxonomy a {
+  color: #f48a22;
+  display: block;
+}
+
+.vts_readmore_taxonomy a:after {
+  content: '';
+  width: 0;
+  right: 0;
+  border-top: 6px solid #f48a22;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -2px 0 0 5px;
+}
+
+.vts_readmore_taxonomy_less:before {
+  display: none;
+}
+
+.vts_readmore_taxonomy_less a:after {
+  border-top: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #f48a22;
+}
+
+
 @media only screen and (max-width: 1500px) {
   .about_project .item .box_content,
   .input_data .box_form .box_content_form {

@@ -68,7 +68,7 @@
   display: block;
   color: #fff;
   font-family: "Roboto";
-font-weight: bold;
+  font-weight: bold;
   font-size: 19px;
   line-height: 17.84px;
   text-transform: uppercase;
@@ -114,7 +114,7 @@ ul.list-socials img {
 }
 .ft-col-title {
   font-family: "Roboto";
-font-weight: bold;
+  font-weight: bold;
   margin-bottom: 25px;
   font-size: 15px;
 }
@@ -180,11 +180,6 @@ span.wpcf7-not-valid-tip {
   left: 0;
   top: 5px;
 }
-.footer-body .bottom li:nth-child(1) a,
-.footer-body .bottom li:nth-child(3) a,
-.footer-body .bottom li:nth-child(4) a {
-  pointer-events: none;
-}
 .footer-bottom .grid-container {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -233,7 +228,7 @@ ul.policy a {
 .search div#primary article .news-name {
   font-size: 25px;
   font-family: "Roboto";
-font-weight: bold;
+  font-weight: bold;
   margin-bottom: 5px;
 }
 .search div#primary article img {
