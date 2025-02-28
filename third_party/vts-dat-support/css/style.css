@@ -4,13 +4,16 @@
   right: 5px;
   z-index: 999;
 }
+
 #csWrapper .hidden {
   display: none;
 }
+
 #csWrapper .wrapperCSButtons {
   display: flex;
   justify-content: flex-end;
 }
+
 #csWrapper .wrapperCSButtons .overlayCSButtons {
   width: 87px;
   height: 87px;
@@ -20,6 +23,7 @@
   align-items: center;
   transition: background 0.4s;
 }
+
 #csWrapper .wrapperCSButtons .overlayCSButtons .showCSButtons {
   display: inline-block;
   width: 70px;
@@ -28,27 +32,31 @@
   box-shadow: 0 0 7px 2px #c9c9c9;
   transition: box-shadow 0.4s;
 }
+
 #csWrapper .wrapperCSButtons .overlayCSButtons .showCSButtons:hover {
   box-shadow: 0 0 5px 10px #fde6dc;
 }
+
 #csWrapper .wrapperCSButtons .overlayCSButtons .showCSButtons img {
   position: absolute;
   width: 70px;
   height: 70px;
   border-radius: 99px;
 }
+
 #csWrapper .wrapperCSButtons .overlayCSButtons.active .showCSButtons {
-  background: url(../../../uploads/vts-dat-support/images/close.png) 100% /
-    cover no-repeat;
+  background: url(../../../uploads/close.png) 100% / cover no-repeat;
   width: 52px;
   height: 52px;
 }
+
 #csWrapper ul li {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
 }
+
 #csWrapper ul li p {
   background-image: linear-gradient(to right, #ffa100, #f26921);
   color: #fff;
@@ -58,6 +66,7 @@
   position: relative;
   display: none;
 }
+
 #csWrapper ul li p:after {
   content: "";
   width: 0;
@@ -69,6 +78,7 @@
   right: -9px;
   top: 10px;
 }
+
 #csWrapper ul li a {
   display: inline-block;
   width: 52px;
@@ -76,15 +86,18 @@
   border-radius: 99px;
   box-shadow: 0 0 7px 2px #c9c9c9;
 }
-#csWrapper ul li a:hover ~ p {
+
+#csWrapper ul li a:hover~p {
   display: block;
 }
+
 #csWrapper ul li {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
 }
+
 #csWrapper ul li p {
   background-image: linear-gradient(to right, #ffa100, #f26921);
   color: #fff;
@@ -94,6 +107,7 @@
   position: relative;
   display: none;
 }
+
 #csWrapper ul li p:after {
   content: "";
   width: 0;
@@ -105,6 +119,7 @@
   right: -9px;
   top: 10px;
 }
+
 #csWrapper ul li a {
   display: inline-block;
   width: 52px;
@@ -112,28 +127,31 @@
   border-radius: 99px;
   box-shadow: 0 0 7px 2px #c9c9c9;
 }
-#csWrapper ul li a:hover ~ p {
+
+#csWrapper ul li a:hover~p {
   display: block;
 }
+
 #csWrapper ul li a.btnPhone {
-  background: url(../../../uploads/vts-dat-support/images/phone.png) 100% /
-    cover no-repeat;
+  background: url(../../../uploads/vts-dat-support/images/phone.png) 100% / cover no-repeat;
 }
+
 #csWrapper ul li a.btnSubiz {
-  background: url(../../../uploads/vts-dat-support/images/subiz.png) 100% /
-    cover no-repeat;
+  background: url(../../../uploads/vts-dat-support/images/subiz.png) 100% / cover no-repeat;
 }
+
 #csWrapper ul li a.btnMessenger {
-  background: url(../../../uploads/vts-dat-support/images/messenger.png) 100% /
-    cover no-repeat;
+  background: url(../../../uploads/vts-dat-support/images/messenger.png) 100% / cover no-repeat;
 }
+
 #csWrapper ul li a.btnZalo {
-  background: url(../../../uploads/vts-dat-support/images/zalo.png) 100% / cover
-    no-repeat;
+  background: url(../../../uploads/vts-dat-support/images/zalo.png) 100% / cover no-repeat;
 }
+
 #csWrapper a:link {
   color: #06c;
 }
+
 .zalo-chat-widget a {
   display: block;
   width: 24px;
@@ -143,9 +161,11 @@
   top: 22px;
   z-index: 2;
 }
+
 .zalo-chat-widget iframe {
   opacity: 1 !important;
 }
+
 #csWrapper ul {
   display: none;
   list-style: none;
@@ -153,17 +173,21 @@
   margin-right: 17px;
   margin-bottom: 74px;
 }
+
 .zalo-chat-widget {
   position: absolute;
   bottom: 126px !important;
   right: 16px !important;
 }
+
 .wrapperCSButtons .showCSButtons {
   display: none !important;
 }
+
 #csWrapper ul {
   display: block;
 }
+
 @media (max-width: 600px) {
   .contact-menu {
     list-style: none;
@@ -179,40 +203,50 @@
     transition: max-height 0.3s ease-out;
     opacity: 0;
   }
+
   .contact-menu.active {
     max-height: 258px;
     opacity: 1;
   }
+
   .contact-menu li {
     margin: 8px 0;
     transform: translateY(20px);
     opacity: 0;
     transition: all 0.3s ease-out;
   }
+
   .contact-menu.active li {
     transform: translateY(0);
     opacity: 1;
   }
+
   .contact-menu.active li:nth-child(1) {
     transition-delay: 0.1s;
   }
+
   .contact-menu.active li:nth-child(2) {
     transition-delay: 0.2s;
   }
+
   .contact-menu.active li:nth-child(3) {
     transition-delay: 0.3s;
   }
+
   .contact-menu.active li:nth-child(4) {
     transition-delay: 0.4s;
   }
+
   .overlayCSButtons {
     border-radius: 50%;
     transition: transform 0.3s ease;
     cursor: pointer;
   }
+
   .overlayCSButtons.active {
     transform: rotate(180deg);
   }
+
   .contact-menu li a {
     display: block;
     padding: 10px;
@@ -221,40 +255,50 @@
     border-radius: 25px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
+
   #csWrapper ul li a {
     width: 30px;
     height: 30px;
   }
+
   #csWrapper ul li p {
     display: none;
   }
+
   #csWrapper .wrapperCSButtons .overlayCSButtons {
     width: 52px;
     height: 52px;
   }
+
   #csWrapper .wrapperCSButtons .overlayCSButtons .showCSButtons {
     width: 52px;
     height: 52px;
   }
+
   #csWrapper .wrapperCSButtons .overlayCSButtons .showCSButtons img {
     width: 52px;
     height: 52px;
   }
+
   #csWrapper ul li {
     display: block;
   }
+
   .wrapperCSButtons .showCSButtons {
     display: block !important;
   }
+
   #csWrapper ul {
     margin-right: 0;
     margin-bottom: 22px;
   }
+
   #csWrapper ul {
     display: none;
   }
+
   .contact-menu p,
-  #csWrapper ul li a:hover ~ p {
+  #csWrapper ul li a:hover~p {
     display: none !important;
   }
 }
